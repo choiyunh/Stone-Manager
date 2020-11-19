@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 
+// 03519F
+
 function App() {
+
+  let posts = 'test'
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="blue-nav">
+        <div> <b> Stone Manager </b></div>
+      </div>
+      
+      <img src={ logo } />
+      <h4>{ posts }</h4>
     </div>
   );
 }

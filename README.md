@@ -1,3 +1,7 @@
+## Stone Manager
+동국대학교 소프트웨어공학개론 프로젝트
+캡스톤 프로젝트 관리 시스템
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
