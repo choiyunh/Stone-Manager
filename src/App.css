@@ -4,16 +4,54 @@
 
 body{
   font-family: 'nanumsquare';
+  margin: 0;
 }
 
-.blue-nav{
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.blueNav{
   background: #03519F;
-  width: 100%;
   display: flex;
   color: white;
-  padding: 20px;
-  font-weight: 600;
-  font-size: 40px;
+  padding: 8px 15px;
+  justify-content: space-between;
+}
+
+.projectName{
+  display: flex;
+  list-style: none;
+  font-size:40px;
+}
+
+.projectName li{
+  padding: 8px 12px;
+}
+
+.myProfile{
+  padding: 50px 50px;
+}
+
+.myPage{
+  font-size:25px;
+  list-style: none;
+  display: flex;
+}
+
+.userImg{
+  padding-top:10px;
+  height:3vmin;
+}
+
+.myPage li{
+  padding: 8px 12px;
+}
+
+.mypage li:hover{
+  background-color:#6ba1d8;
+  border-radius: 4px;
 }
 
 .App-logo {
